@@ -1,0 +1,26 @@
+
+
+hasAuthory(ADMIN) vs hasRole (ROLE_ADMIN)
+
+Disable loginform for  /api/*  rest api 
+
+****************
+01 Unauthorized, the HTTP status code for authentication errors. 
+And that’s just it: it’s for authentication, not authorization. 
+Receiving a 401 response is the server telling you, 
+“you aren’t authenticated–either not authenticated at all or authenticated incorrectly–but please reauthenticate and try again.” 
+
+---------------
+Receiving a 403 response is the server telling you, “I’m sorry. I know who you are–I believe who you say you are–but you just don’t have permission to access this resource. 
+Maybe if you ask the system administrator nicely, you’ll get permission. 
+But please don’t bother me again until your predicament changes.”
+
+
+******************
+
+Spring Security :The tool provides support for several authentication schemes:
+
+Basic Authentication
+Digest Authentication
+Form Authentication
+OAuth 1 and OAuth 2

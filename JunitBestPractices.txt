@@ -1,0 +1,19 @@
+
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = DemoApplication.class) //********
+public  class  MyTest{
+
+	@Autowired 
+	Sevice  service;
+	
+	@Test
+	public  void findBydIdtestV1(){
+	
+			optional.isPresent();
+	
+	]
+
+
+
+}
