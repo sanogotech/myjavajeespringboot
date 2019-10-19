@@ -11,6 +11,13 @@ addons:
     token:
       secure: $SONAR_TOKEN
  
+ before_script:
+    #https://docs.travis-ci.com/user/environment-variables/
+    # Always run script
+    #- $TRAVIS_BUILD_DIR/ci/travis_release_audit.sh
+    # CD Sub Projet
+    #- cd  $TRAVIS_BUILD_DIR/subproject
+
 script:
 - ./mvnw clean install -B
 - ./mvnw clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
