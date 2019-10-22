@@ -1,0 +1,1 @@
+ 2webX*hr,src/main/resources/templates/adminindex.html

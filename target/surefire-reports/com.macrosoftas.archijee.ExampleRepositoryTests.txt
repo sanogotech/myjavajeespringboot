@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.macrosoftas.archijee.ExampleRepositoryTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.378 s - in com.macrosoftas.archijee.ExampleRepositoryTests

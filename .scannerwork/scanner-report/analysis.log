@@ -1,0 +1,43 @@
+SonarQube plugins:
+  - Cobertura 2.0 (cobertura)
+  - SonarCSS 1.1.1.1010 (cssfamily)
+  - Svn 1.9.0.1295 (scmsvn)
+  - SonarScala 1.5.0.315 (sonarscala)
+  - SonarC# 7.15.0.8572 (csharp)
+  - SonarJava 5.14.0.18788 (java)
+  - LDAP 2.2.0.608 (ldap)
+  - SonarHTML 3.1.0.1615 (web)
+  - SonarFlex 2.5.1.1831 (flex)
+  - SonarXML 2.0.1.2020 (xml)
+  - French Pack 1.15.1 (l10nfr)
+  - SonarTS 1.9.0.3766 (typescript)
+  - SonarVB 7.15.0.8572 (vbnet)
+  - SonarPython 1.14.1.3143 (python)
+  - GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+  - JaCoCo 1.0.2.475 (jacoco)
+  - SonarGo 1.1.1.2000 (go)
+  - SonarKotlin 1.5.0.315 (kotlin)
+  - SonarJS 5.2.1.7778 (javascript)
+  - SonarRuby 1.5.0.315 (ruby)
+  - Findbugs 3.11.0 (findbugs)
+  - Git 1.8.0.1574 (scmgit)
+  - SAML 2.0 Authentication for SonarQube 1.1.0.181 (authsaml)
+  - SonarPHP 3.2.0.4868 (php)
+Global server settings:
+  - sonar.core.id=86E1FA4D-AW3d_xKwm58RTkywOkim
+  - sonar.core.startTime=2019-10-22T06:55:44+0100
+Project server settings:
+Project scanner properties:
+  - sonar.exclusions=src/main/resources/static/**
+  - sonar.host.url=http://localhost:9000
+  - sonar.java.binaries=target/classes,target/test-classes
+  - sonar.projectBaseDir=C:\MACROSOFT\githubsanogotech\archijavajeespringboot
+  - sonar.projectKey=macrosoft:archijee
+  - sonar.projectName=ArchiSample
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=4.0.0.1744
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=src/main
+  - sonar.verbose=true
+  - sonar.working.directory=C:\MACROSOFT\githubsanogotech\archijavajeespringboot\.scannerwork
