@@ -1,4 +1,15 @@
 
+## Javadoc  Command
+
+C:\b2b\com\steve\util\
+C:\b2b\com\steve\app\
+C:\b2b\com\steve\gui\
+
+
+* javadoc -d "C:\docs" -sourcepath "C:\b2b" -subpackages com
+
+* javadoc -d "C:\projectjee\projetdegestionsdestocks\docs\MyJavaDocs" -sourcepath "C:\projectjee\projetdegestionsdestocks\src\main\java" -subpackages comjavadoc -d "C:\projectjee\projetdegestionsdestocks\docs\MyJavaDocs" -sourcepath "C:\projectjee\projetdegestionsdestocks\src\main\java" -subpackages com
+
 
 ***  Test en Mode  DEV
 
