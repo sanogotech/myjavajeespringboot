@@ -1,3 +1,7 @@
+## JPA One Many + REST API
+https://netsurfingzone.com/hibernate/one-to-many-mapping-annotation-example-in-hibernate-jpa-using-spring-boot-and-oracle/
+
+
 ##  Spring DATA JPA  FindBy---
 
 - https://www.baeldung.com/spring-jpa-like-queries
