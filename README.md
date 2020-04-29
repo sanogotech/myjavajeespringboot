@@ -1,3 +1,6 @@
+## JPA One to Many
+https://www.baeldung.com/hibernate-one-to-many
+
 ## JPA One Many + REST API
 https://netsurfingzone.com/hibernate/one-to-many-mapping-annotation-example-in-hibernate-jpa-using-spring-boot-and-oracle/
 
