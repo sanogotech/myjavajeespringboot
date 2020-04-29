@@ -1,7 +1,8 @@
 ##  Spring DATA JPA  FindBy---
 
-https://www.baeldung.com/spring-jpa-like-queries
-https://www.baeldung.com/spring-data-derived-queries
+- https://www.baeldung.com/spring-jpa-like-queries
+
+- https://www.baeldung.com/spring-data-derived-queries
 ## Javadoc  Command
 
 C:\b2b\com\steve\util\
