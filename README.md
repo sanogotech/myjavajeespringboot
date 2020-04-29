@@ -1,6 +1,11 @@
 ## JPA One to Many
 https://www.baeldung.com/hibernate-one-to-many
 
+* Traversal Objet  Booking|User
+```java
+List<Booking> findByUser_username(String username);
+```
+
 ## JPA One Many + REST API
 https://netsurfingzone.com/hibernate/one-to-many-mapping-annotation-example-in-hibernate-jpa-using-spring-boot-and-oracle/
 
