@@ -1,10 +1,19 @@
 ## JPA One to Many
 https://www.baeldung.com/hibernate-one-to-many
 
-* Traversal Objet  Booking|User
+* Spring Data JPA find by embedded object property --  Booking|User
 ```java
 List<Booking> findByUser_username(String username);
 ```
+
+https://www.logicbig.com/tutorials/spring-framework/spring-data/nested-properties-resolution.html
+
+```java
+List<Employee> findByDeptartementName(String deptName);
+
+List<Employee> findByDeptartement_name(String deptName);
+```
+
 
 ## JPA One Many + REST API
 https://netsurfingzone.com/hibernate/one-to-many-mapping-annotation-example-in-hibernate-jpa-using-spring-boot-and-oracle/
