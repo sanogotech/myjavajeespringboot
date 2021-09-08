@@ -1,0 +1,24 @@
+{
+  "audiencierApp": {
+    "requerant": {
+      "home": {
+        "title": "Requerants",
+        "createLabel": "Créer un nouveau Requerant",
+        "createOrEditLabel": "Créer ou éditer un Requerant",
+        "notFound": "Aucun Requerant trouvé"
+      },
+      "created": "Un nouveau Requerant a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Requerant avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Requerant avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Requerant {{ id }} ?"
+      },
+      "detail": {
+        "title": "Requerant"
+      },
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "numCNI": "Num CNI"
+    }
+  }
+}

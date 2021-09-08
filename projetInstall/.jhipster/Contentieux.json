@@ -1,0 +1,58 @@
+{
+  "name": "Contentieux",
+  "fields": [
+    {
+      "fieldName": "entite",
+      "fieldType": "Entite",
+      "fieldValues": "CIE,SODECI,AWALE"
+    },
+    {
+      "fieldName": "refContentieux",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "unique"
+      ]
+    },
+    {
+      "fieldName": "datePremiereAudience",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "requerant",
+      "otherEntityRelationshipName": "contentieux",
+      "relationshipName": "requerant",
+      "otherEntityField": "nom"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "avocat",
+      "otherEntityRelationshipName": "contentieux",
+      "relationshipName": "avocat",
+      "otherEntityField": "nom"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "juridiction",
+      "otherEntityRelationshipName": "contentieux",
+      "relationshipName": "juridiction",
+      "otherEntityField": "nom"
+    }
+  ],
+  "changelogDate": "20210819104426",
+  "entityTableName": "contentieux",
+  "dto": "no",
+  "pagination": "infinite-scroll",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

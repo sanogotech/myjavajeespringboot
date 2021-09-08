@@ -1,0 +1,25 @@
+{
+  "audiencierApp": {
+    "avocat": {
+      "home": {
+        "title": "Avocats",
+        "createLabel": "Créer un nouveau Avocat",
+        "createOrEditLabel": "Créer ou éditer un Avocat",
+        "notFound": "Aucun Avocat trouvé"
+      },
+      "created": "Un nouveau Avocat a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Avocat avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Avocat avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Avocat {{ id }} ?"
+      },
+      "detail": {
+        "title": "Avocat"
+      },
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "email": "Email",
+      "phone": "Phone"
+    }
+  }
+}

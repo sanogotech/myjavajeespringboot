@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Contentieux.
+    -->
+    <changeSet id="20210819104426-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="requerant_id"
+                                 baseTableName="contentieux"
+                                 constraintName="fk_contentieux_requerant_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="requerant"/>
+
+        <addForeignKeyConstraint baseColumnNames="avocat_id"
+                                 baseTableName="contentieux"
+                                 constraintName="fk_contentieux_avocat_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="avocat"/>
+
+        <addForeignKeyConstraint baseColumnNames="juridiction_id"
+                                 baseTableName="contentieux"
+                                 constraintName="fk_contentieux_juridiction_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="juridiction"/>
+
+    </changeSet>
+</databaseChangeLog>

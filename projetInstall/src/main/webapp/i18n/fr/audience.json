@@ -1,0 +1,25 @@
+{
+  "audiencierApp": {
+    "audience": {
+      "home": {
+        "title": "Audiences",
+        "createLabel": "Créer un nouveau Audience",
+        "createOrEditLabel": "Créer ou éditer un Audience",
+        "notFound": "Aucun Audience trouvé"
+      },
+      "created": "Un nouveau Audience a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Audience avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Audience avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Audience {{ id }} ?"
+      },
+      "detail": {
+        "title": "Audience"
+      },
+      "mois": "Mois",
+      "stade": "Stade",
+      "dateAudience": "Date Audience",
+      "contentieux": "Contentieux"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Audience",
+  "fields": [
+    {
+      "fieldName": "mois",
+      "fieldType": "Mois",
+      "fieldValues": "Janvier,Fevrier,Mars,Avril,Mai,Juin,Juillet,Aout,Septembre,Octobre,Novembre,Decembre",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "stade",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text",
+      "fieldValidateRules": [
+        "required"
+      ]
+    },
+    {
+      "fieldName": "dateAudience",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "contentieux",
+      "otherEntityRelationshipName": "audience",
+      "relationshipName": "contentieux",
+      "otherEntityField": "refContentieux"
+    }
+  ],
+  "changelogDate": "20210818193706",
+  "entityTableName": "audience",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

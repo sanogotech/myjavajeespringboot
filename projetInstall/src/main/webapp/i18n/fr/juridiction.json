@@ -1,0 +1,23 @@
+{
+  "audiencierApp": {
+    "juridiction": {
+      "home": {
+        "title": "Juridictions",
+        "createLabel": "Créer un nouveau Juridiction",
+        "createOrEditLabel": "Créer ou éditer un Juridiction",
+        "notFound": "Aucun Juridiction trouvé"
+      },
+      "created": "Un nouveau Juridiction a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Juridiction avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Juridiction avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Juridiction {{ id }} ?"
+      },
+      "detail": {
+        "title": "Juridiction"
+      },
+      "nom": "Nom",
+      "ville": "Ville"
+    }
+  }
+}

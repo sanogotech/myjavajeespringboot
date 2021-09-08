@@ -1,0 +1,27 @@
+{
+  "audiencierApp": {
+    "contentieux": {
+      "home": {
+        "title": "Contentieux",
+        "createLabel": "Créer un nouveau Contentieux",
+        "createOrEditLabel": "Créer ou éditer un Contentieux",
+        "notFound": "Aucun Contentieux trouvé"
+      },
+      "created": "Un nouveau Contentieux a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Contentieux avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Contentieux avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Contentieux {{ id }} ?"
+      },
+      "detail": {
+        "title": "Contentieux"
+      },
+      "entite": "Entite",
+      "refContentieux": "Ref Contentieux",
+      "datePremiereAudience": "Date Premiere Audience",
+      "requerant": "Requerant",
+      "avocat": "Avocat",
+      "juridiction": "Juridiction"
+    }
+  }
+}

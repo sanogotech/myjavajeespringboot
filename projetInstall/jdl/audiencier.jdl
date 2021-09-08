@@ -1,0 +1,72 @@
+
+
+entity Contentieux {
+  entite Entite 
+  refContentieux String  unique
+  datePremiereAudience 	LocalDate required
+}
+
+entity Audience {
+  mois Mois required
+  stade  TextBlob required 
+  dateAudience 	LocalDate required
+}
+
+
+entity Requerant{
+  nom String required minlength(2)
+  prenom String required minlength(2)
+  numCNI String required minlength(2)
+}
+
+entity Juridiction{
+  nom String required minlength(2)
+  ville String required minlength(2)
+}
+
+
+entity Avocat {
+  nom String required minlength(2)
+  prenom String required minlength(2)
+  email String required
+  phone String required
+}
+
+
+enum Mois {
+   Janvier, Fevrier, Mars, Avril, Mai, Juin, Juillet, Aout, Septembre, Octobre, Novembre, Decembre
+}
+
+enum Entite {
+    CIE, SODECI, AWALE
+}
+
+
+relationship ManyToOne {
+   Contentieux{requerant(nom)} to Requerant required
+}
+
+relationship ManyToOne {
+  Contentieux{avocat(nom)} to Avocat,
+
+}
+
+relationship ManyToOne {
+  Contentieux{juridiction(nom)} to Juridiction,
+}
+
+
+relationship ManyToOne {
+  Audience{contentieux(refContentieux)} to Contentieux,
+}
+
+
+
+
+
+
+paginate Audience with pagination
+paginate Contentieux with infinite-scroll
+
+service Audience with serviceClass
+service Contentieux with serviceClass
