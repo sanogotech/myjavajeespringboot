@@ -15,6 +15,8 @@
                             <option value="CIE" v-bind:label="$t('audiencierApp.Entite.CIE')">CIE</option>
                             <option value="SODECI" v-bind:label="$t('audiencierApp.Entite.SODECI')">SODECI</option>
                             <option value="AWALE" v-bind:label="$t('audiencierApp.Entite.AWALE')">AWALE</option>
+							<option value="GS2E" v-bind:label="$t('audiencierApp.Entite.GS2E')">GS2E</option>
+							<option value="SMART_ENERGY" v-bind:label="$t('audiencierApp.Entite.SMART_ENERGY')">SMART_ENERGY</option>
                         </select>
                     </div>
                  

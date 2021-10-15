@@ -27,8 +27,9 @@
             
 
             <p style="text-align:center">
-                  <span class="audiencier img-fluid rounded"></span>
+                <!--  <span class="audiencier img-fluid rounded"></span>
                 <span class="audiencier contentieux rounded"></span>
+				-->
 
             </p>
         </div>

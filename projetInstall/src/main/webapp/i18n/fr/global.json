@@ -6,7 +6,7 @@
       "home": "Accueil",
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
-        "main": "Entités",
+        "main": "Gestion des Contentieux",
         "audience": "Audience",
         "requerant": "Requerant",
         "juridiction": "Juridiction",
@@ -104,7 +104,7 @@
       "open": "Ouvrir",
       "save": "Sauvegarder",
       "view": "Voir",
-	  "viewAudience": "Voir les Audiences"
+      "viewAudience": "Voir les Audiences"
     },
     "detail": {
       "field": "Champs",
