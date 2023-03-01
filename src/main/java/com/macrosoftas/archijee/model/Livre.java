@@ -18,6 +18,7 @@ public class Livre implements Serializable {
 	@GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
 	
+	//Variable livre
 	private String  titre;
 	
 
