@@ -21,7 +21,7 @@ jobs:
       - name: Build with Maven
         run: mvn clean
     
-  compilejobs:
+  compilejob:
     name: compile job
     runs-on: ubuntu-latest
     needs: cleanjob
@@ -39,6 +39,7 @@ jobs:
   build:
     name: Build and analyze
     runs-on: ubuntu-latest
+    needs: compilejob
     steps:
       - uses: actions/checkout@v3
         with:
