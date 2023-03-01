@@ -29,7 +29,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       #run: mvn -B package --file pom.xml  
-      run: mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.organization=sanogotech  -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=40a7da271b785f757f93fd9f2dffc6428297882a -Dsonar.projectKey=sanogotech_archijavajeespringboot
+      run: mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.organization=sanogotech  -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=fa414391eef9d5ab4cb4b926e65147520f37a09a -Dsonar.projectKey=sanogotech_archijavajeespringboot
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
