@@ -1,5 +1,24 @@
 # Sample Code
 
+## Maven  Cycle
+
+when you run a Maven goal, it will run any previous goal. The order of basic phases is:
+```
+- Validate
+- Compile
+- Test
+- Package
+- Verify
+- Install
+- Deploy
+```
+Based on official documentation:
+
+TEST - test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+
+VERIFY - run any checks on results of integration tests to ensure quality criteria are met
+
+To run unit tests, the Surefire plugin is recommended. And Failsafe for integration tests.
 ## Bootstrap  Theme
 - https://startbootstrap.com/
 
